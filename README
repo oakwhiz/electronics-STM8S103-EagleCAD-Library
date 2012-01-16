@@ -2,7 +2,7 @@ This is an Eagle CAD (http://http://www.cadsoftusa.com/) library for STMicroelec
 
 Available packages:
 
-* STM8S103F** (TSSOP-20 and SO-20)
+* STM8S103F*[P/M] (TSSOP-20 and SO-20)
 * STM8S103K*T (LQFP-32)
 
 Library created using Eagle 6.0. 
