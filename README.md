@@ -1,4 +1,4 @@
-This is an Eagle [CAD library](http://www.cadsoftusa.com) for STMicroelectronics [STM8S103 microcontrollers](http://www.st.com/internet/mcu/subclass/1244.jsp)
+This is an [Eagle CAD](http://www.cadsoftusa.com) library for STMicroelectronics [STM8S103 microcontrollers](http://www.st.com/internet/mcu/subclass/1244.jsp)
 
 Available packages:
 
