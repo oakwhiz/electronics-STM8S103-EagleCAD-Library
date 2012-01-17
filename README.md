@@ -7,4 +7,4 @@ Available packages:
 
 Library created using Eagle 6.0. 
 
-_Devices and packages are not fully tested yet. Use on your own risk, NO WARRANTY!_
+*Devices and packages are not fully tested yet. Use on your own risk, NO WARRANTY!*
