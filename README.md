@@ -4,6 +4,7 @@ Available packages:
 
 * STM8S103F*P/M (TSSOP-20 and SO-20)
 * STM8S103K*T (LQFP-32)
+* STM32L052K8 (LQFP-32)
 
 Library created using Eagle 6.0. 
 
