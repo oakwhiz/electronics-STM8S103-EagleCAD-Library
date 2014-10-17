@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -381,6 +381,44 @@ Sourced: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm
 <pin name="PA3(HS)/TIM2_CH3[SPI_NSS]" x="33.02" y="-30.48" length="middle" rot="R180"/>
 <pin name="PF4" x="33.02" y="-33.02" length="middle" rot="R180"/>
 </symbol>
+<symbol name="STM32L052K8">
+<wire x1="0" y1="0" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="-73.66" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-73.66" x2="0" y2="-73.66" width="0.254" layer="94"/>
+<wire x1="0" y1="-73.66" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="VDD" x="-5.08" y="-2.54" length="middle"/>
+<pin name="VSS" x="-5.08" y="-43.18" length="middle"/>
+<pin name="NRST" x="-5.08" y="-22.86" length="middle"/>
+<pin name="VDDA" x="-5.08" y="-12.7" length="middle"/>
+<pin name="PA0" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="PA1" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="PA2" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="PA3" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="PA4" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="PA5" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA6" x="30.48" y="-17.78" length="middle" rot="R180"/>
+<pin name="PA7" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="PA8" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="PA9" x="30.48" y="-25.4" length="middle" rot="R180"/>
+<pin name="PA10" x="30.48" y="-27.94" length="middle" rot="R180"/>
+<pin name="PA11" x="30.48" y="-30.48" length="middle" rot="R180"/>
+<pin name="PA12" x="30.48" y="-33.02" length="middle" rot="R180"/>
+<pin name="PA13" x="30.48" y="-35.56" length="middle" rot="R180"/>
+<pin name="PA14" x="30.48" y="-38.1" length="middle" rot="R180"/>
+<pin name="PA15" x="30.48" y="-40.64" length="middle" rot="R180"/>
+<pin name="PB6" x="30.48" y="-60.96" length="middle" rot="R180"/>
+<pin name="PB0" x="30.48" y="-45.72" length="middle" rot="R180"/>
+<pin name="PB1" x="30.48" y="-48.26" length="middle" rot="R180"/>
+<pin name="PB3" x="30.48" y="-53.34" length="middle" rot="R180"/>
+<pin name="PB4" x="30.48" y="-55.88" length="middle" rot="R180"/>
+<pin name="PB5" x="30.48" y="-58.42" length="middle" rot="R180"/>
+<pin name="PB7" x="30.48" y="-63.5" length="middle" rot="R180"/>
+<pin name="PC14" x="30.48" y="-68.58" length="middle" rot="R180"/>
+<pin name="PC15" x="30.48" y="-71.12" length="middle" rot="R180"/>
+<pin name="BOOT0" x="-5.08" y="-33.02" length="middle"/>
+<text x="2.54" y="2.54" size="1.27" layer="95">&gt;Name</text>
+<text x="2.54" y="-76.2" size="1.27" layer="96">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="STM8S103F*" prefix="IC">
@@ -485,6 +523,50 @@ Sourced: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm
 <connect gate="G$1" pin="VCAP" pad="5"/>
 <connect gate="G$1" pin="VDD/VCC" pad="6"/>
 <connect gate="G$1" pin="VSS/GND" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32L052K8*">
+<gates>
+<gate name="G$1" symbol="STM32L052K8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LQFP32-7X7">
+<connects>
+<connect gate="G$1" pin="BOOT0" pad="31"/>
+<connect gate="G$1" pin="NRST" pad="4" route="any"/>
+<connect gate="G$1" pin="PA0" pad="6"/>
+<connect gate="G$1" pin="PA1" pad="7"/>
+<connect gate="G$1" pin="PA10" pad="20"/>
+<connect gate="G$1" pin="PA11" pad="21"/>
+<connect gate="G$1" pin="PA12" pad="22"/>
+<connect gate="G$1" pin="PA13" pad="23"/>
+<connect gate="G$1" pin="PA14" pad="24"/>
+<connect gate="G$1" pin="PA15" pad="25"/>
+<connect gate="G$1" pin="PA2" pad="8"/>
+<connect gate="G$1" pin="PA3" pad="9"/>
+<connect gate="G$1" pin="PA4" pad="10"/>
+<connect gate="G$1" pin="PA5" pad="11"/>
+<connect gate="G$1" pin="PA6" pad="12"/>
+<connect gate="G$1" pin="PA7" pad="13"/>
+<connect gate="G$1" pin="PA8" pad="18"/>
+<connect gate="G$1" pin="PA9" pad="19"/>
+<connect gate="G$1" pin="PB0" pad="14"/>
+<connect gate="G$1" pin="PB1" pad="15"/>
+<connect gate="G$1" pin="PB3" pad="26"/>
+<connect gate="G$1" pin="PB4" pad="27"/>
+<connect gate="G$1" pin="PB5" pad="28"/>
+<connect gate="G$1" pin="PB6" pad="29"/>
+<connect gate="G$1" pin="PB7" pad="30"/>
+<connect gate="G$1" pin="PC14" pad="2"/>
+<connect gate="G$1" pin="PC15" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="1 17"/>
+<connect gate="G$1" pin="VDDA" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="16 32"/>
 </connects>
 <technologies>
 <technology name=""/>
